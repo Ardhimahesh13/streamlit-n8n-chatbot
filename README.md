@@ -9,18 +9,18 @@ This is a synchronous chatbot built using Streamlit (frontend) and n8n (backend)
 
 ## 🚀 How to Run locally
 
-1. **Install Dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   
-2.**Setup n8n:**
+### 1. Install Dependencies
+```bash
+pip install -r requirements.txt
 
-'Import workflow.json into your n8n instance.'
+2. **Setup n8n**
+- `Import workflow.json into your n8n instance.`
 
-'Activate the workflow.'
+- `Activate the workflow.`
 
-'Update the N8N_WEBHOOK_URL in app.py with your production URL.'
+- `Update the N8N_WEBHOOK_URL in app.py with your production URL.`
 
-3. **Run the App:**
-  'streamlit run app.py'
-Click **Commit changes**.
+
+**Run the App**
+streamlit run app.py
+
